@@ -9,7 +9,7 @@ class ViewController: UIViewController {
     }
     @IBAction func pw(_ sender: Any) {
     }
-    @IBAction func confirm(_ sender: Any) {
-    }
+
+    @IBOutlet var login: UIButton!
 }
 
