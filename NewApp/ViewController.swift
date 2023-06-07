@@ -5,11 +5,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    @IBAction func id(_ sender: Any) {
-    }
-    @IBAction func pw(_ sender: Any) {
-    }
-
+    @IBOutlet var mainLabel: UILabel!
+    @IBOutlet var emailField: UITextField!
+    @IBOutlet var passwordField: UITextField!
     @IBOutlet var login: UIButton!
 }
 
