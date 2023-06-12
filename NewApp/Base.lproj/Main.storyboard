@@ -57,6 +57,7 @@
                     <connections>
                         <outlet property="emailField" destination="Fo4-5o-54f" id="mwU-fA-F5X"/>
                         <outlet property="login" destination="IYd-yN-yxb" id="fRT-pP-70S"/>
+                        <outlet property="loginButton" destination="IYd-yN-yxb" id="1AY-ha-LD3"/>
                         <outlet property="mainLabel" destination="9wa-zK-2b1" id="6hn-hN-FH4"/>
                         <outlet property="passwordField" destination="taF-UV-XMC" id="61h-EU-Vwb"/>
                     </connections>
