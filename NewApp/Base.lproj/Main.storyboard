@@ -60,6 +60,7 @@
                         <outlet property="loginButton" destination="IYd-yN-yxb" id="1AY-ha-LD3"/>
                         <outlet property="mainLabel" destination="9wa-zK-2b1" id="6hn-hN-FH4"/>
                         <outlet property="passwordField" destination="taF-UV-XMC" id="61h-EU-Vwb"/>
+                        <segue destination="h5q-4J-vcJ" kind="show" id="OPx-h7-XDY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -71,7 +72,7 @@
             <objects>
                 <tableViewController id="h5q-4J-vcJ" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="6ox-aL-SJ0">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <label key="tableFooterView" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="안녕하세요!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gES-Es-zmW">
@@ -86,10 +87,26 @@
                             <outlet property="delegate" destination="h5q-4J-vcJ" id="7W3-3m-ige"/>
                         </connections>
                     </tableView>
+                    <navigationItem key="navigationItem" id="mW5-bb-5xL"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xoE-6d-NOc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="838.93129770992368" y="30.985915492957748"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1u5-lh-dr5">
+            <objects>
+                <viewController id="G61-Lc-qbB" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5DS-kA-uze">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jen-NS-TT2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AJg-gu-yD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1503" y="45"/>
         </scene>
     </scenes>
     <resources>
