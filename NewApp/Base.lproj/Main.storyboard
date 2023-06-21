@@ -117,6 +117,7 @@
                     </view>
                     <connections>
                         <segue destination="aAl-em-aq6" kind="showDetail" id="EOD-zT-zsq"/>
+                        <segue destination="aAl-em-aq6" kind="show" id="YSF-lh-VAY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AJg-gu-yD6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -133,12 +134,16 @@
                         <viewLayoutGuide key="safeArea" id="1y3-Vi-64G"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="Lgw-V6-FQt"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7o4-f1-Gvv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1520" y="739"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YSF-lh-VAY"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
