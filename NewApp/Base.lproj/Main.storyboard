@@ -67,7 +67,7 @@
             </objects>
             <point key="canvasLocation" x="72.51908396946564" y="19.718309859154932"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Title-->
         <scene sceneID="3Th-0R-dCM">
             <objects>
                 <tableViewController id="h5q-4J-vcJ" sceneMemberID="viewController">
@@ -87,7 +87,7 @@
                             <outlet property="delegate" destination="h5q-4J-vcJ" id="7W3-3m-ige"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="mW5-bb-5xL"/>
+                    <navigationItem key="navigationItem" title="Title" id="0n5-Tx-EtE"/>
                     <connections>
                         <segue destination="G61-Lc-qbB" kind="showDetail" id="PGB-vX-mo1"/>
                     </connections>
