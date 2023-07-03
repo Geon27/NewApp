@@ -167,7 +167,7 @@
             <objects>
                 <viewController id="eW8-UJ-qy3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EUK-sT-TYe">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nvu-tx-RxM">
@@ -207,6 +207,9 @@
                         <viewLayoutGuide key="safeArea" id="zHD-G1-V0s"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="eW8-UJ-qy3" kind="showDetail" id="DPp-SN-C1z"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kiP-Wh-3Ja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
