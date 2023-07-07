@@ -193,6 +193,9 @@
                         <viewLayoutGuide key="safeArea" id="CZx-sE-R7a"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <segue destination="NTr-qv-uVC" kind="custom" id="yly-FI-d3C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CHZ-Ja-bTR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
