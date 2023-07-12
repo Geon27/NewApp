@@ -195,6 +195,8 @@
                     </view>
                     <connections>
                         <segue destination="NTr-qv-uVC" kind="custom" id="yly-FI-d3C"/>
+                        <segue destination="QxA-5z-h6s" kind="show" id="BaA-jt-uMg"/>
+                        <segue destination="xwA-6Z-48W" kind="show" id="9JK-Sf-cVA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CHZ-Ja-bTR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -206,11 +208,20 @@
             <objects>
                 <viewController id="QxA-5z-h6s" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wrR-j9-7SS">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhX-AP-URZ">
+                                <rect key="frame" x="159" y="588" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="j7I-se-Udm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DSE-lp-BBL"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wAE-Nr-8z7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -367,11 +378,12 @@
             <objects>
                 <viewController id="xwA-6Z-48W" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Gj8-m0-7b1">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="ebT-dc-TfK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="AAh-ce-P3t"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZk-VZ-1O5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
